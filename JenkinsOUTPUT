@@ -1,0 +1,22 @@
+Started by user Ayah Hamdan
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\jenkins-bootJPA
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Ayah1510/bootJPA.git
+ > D:\Git\bin\git.exe init C:\ProgramData\Jenkins\.jenkins\workspace\jenkins-bootJPA # timeout=10
+Fetching upstream changes from https://github.com/Ayah1510/bootJPA.git
+ > D:\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.37.1.windows.1'
+ > D:\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/Ayah1510/bootJPA.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > D:\Git\bin\git.exe config remote.origin.url https://github.com/Ayah1510/bootJPA.git # timeout=10
+ > D:\Git\bin\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > D:\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision edb3306c3b84f70a9876368583b57543868b1c1b (refs/remotes/origin/master)
+ > D:\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > D:\Git\bin\git.exe checkout -f edb3306c3b84f70a9876368583b57543868b1c1b # timeout=10
+Commit message: "Final changes"
+First time build. Skipping changelog.
+Finished: SUCCESS
